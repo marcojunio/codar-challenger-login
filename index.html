@@ -4,8 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Grab - Login</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    
+    <div class="content">
+      <div class="col-2">
+        <div class="login-content">
+          <div class="header">
+            <img src="./assets/logo-grab.svg" id="logo-grab" alt="logo-grab" aria-label="logo for company">
+          </div>
+          <div class="form-login">
+            <div class="field">
+              <input  autofocus autocomplete="off" type="text" name="login" id="login">
+              <small id="invalid-feedback-login" style="padding-left: 10px;"></small>
+            </div>
+            <div class="field">
+              <input type="password" name="password" id="password">
+            </div>
+              <button class="btn-primary" type="submit">Entrar</button>
+          </div>
+          <div class="forgot-password">
+            <div class="content-forgot-password">
+              <p>Problemas para entrar?</p>
+              <a href="">clique aqui</a>
+            </div>
+          </div>
+        </div>
+      <div class="img">
+        <img src="./assets/undraw_interview_rmcf.svg" alt="img-login-form" aria-label="image for login screen">
+      </div>
+    </div>
+    <script src="js/main.js"></script>
   </body>
 </html>
